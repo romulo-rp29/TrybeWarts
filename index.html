@@ -9,6 +9,8 @@
 </head>
 <body>
  <header class="header">
+    <img src='images/trybewarts-header-logo.svg' class="trybewarts-header-logo"></img>
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
     <div class="login">
         <input type="email" class="trybewarts-login" name="email" placeholder="Email">
         <input type="password" class="trybewarts-login" name="password" placeholder="Senha">
@@ -26,9 +28,33 @@
             <option text="Corvinode" value="Corvinode" name="">Corvinode</option>
             <option text="Pytherina" value="Pytherina" name="">Pytherina</option>
         </select>
+        <hr/>
+        <section class="check-area">
+          <div class="check-box-area">
+            <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+            <div class="aprender">
+              <label for="">HoFs</label>
+              <input type="checkbox" name="" value="HoFs" id="">
+              <label for="">Jest</label>
+              <input type="checkbox" name="" value="Jest" id="">
+              <label for="">Promises</label>
+              <input type="checkbox" name="" value="Promises" id="">
+              <label for="">React</label>
+              <input type="checkbox" name="" value="React" id="">
+              <label for="">SQL</label>
+              <input type="checkbox" name="" value="SQL" id="">
+              <label for="">Python</label>
+              <input type="checkbox" name="" value="Python" id="">
+            </div>
+          </div>
+
+          <textarea name="" id="textarea" class="textarea" max-length="500" cols="80" rows="7"></textarea>
+        </section>
+        <button type="submit" id="submit-btn">Enviar</button>
      </form>
-
  </main>
-
+<footer>
+  Direitos reservados à Trybewarts©
+</footer>
 </body>
 </html>
