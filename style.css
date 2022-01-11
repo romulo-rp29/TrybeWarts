@@ -86,7 +86,7 @@ main {
 }
 
 .register-area{
-  width: 50%;
+  width: 600px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -95,4 +95,12 @@ main {
 .register-area #label-house{
   margin-bottom: 18px;
   margin-right: 5px;
+}
+
+#label-family {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
 }

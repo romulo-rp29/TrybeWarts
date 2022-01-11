@@ -34,6 +34,11 @@
        </select>
        </section>
         <hr/>
+     <div id="label-family">Qual sua família?
+         <input type="radio" name="family" id="" value="Frontend">Frontend
+         <input type="radio" name="family" id="" value="Backend">Backend
+         <input type="radio" name="family" id="" value="Fullstack">Fullstack
+     </div>
         <section class="check-area">
           <div class="check-box-area">
             <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
@@ -51,8 +56,26 @@
               <label for="">Python</label>
               <input type="checkbox" name="" value="Python" id="">
             </div>
+            <hr/>
+            <div id="label-rate">Como você avalia a Trybewarts?
+                <button type="radio" name="rate">1</button>
+                <button type="radio" name="rate">2</button>
+                <button type="radio" name="rate">3</button>
+                <button type="radio" name="rate">4</button>
+                <button type="radio" name="rate">5</button>
+                <button type="radio" name="rate">6</button>
+                <button type="radio" name="rate">7</button>
+                <button type="radio" name="rate">8</button>
+                <button type="radio" name="rate">9</button>
+                <button type="radio" name="rate">10</button>
+            </div>
           </div>
-          <textarea name="" id="textarea" class="textarea" max-length="500" cols="80" rows="7"></textarea>
+          <div id="comment">
+            <h4>Deixe seu comentário:</h4>
+            <textarea name="" id="textarea" class="textarea" max-length="500" cols="80" rows="7"></textarea>
+        </div>
+        <input type="checkbox" name="" id="agreement">
+        <label for="" id="label-infos">Você concorda com o uso das informações acima?</label>
         </section>
         <button type="submit" id="submit-btn">Enviar</button>
      </form>
