@@ -1,8 +1,11 @@
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+@import url('http://fonts.cdnfonts.com/css/spqr');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'SPQR', sans-serif;
 }
 
 body {
@@ -16,7 +19,7 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
-  height: 75px;
+  height: 70px;
 }
 
 .header .trybewarts-header-logo{
@@ -26,12 +29,18 @@ body {
 .header h1 {
     display: flex;
     text-align: center;
+    font-family: 'Harry Potter';
+    color: white;
+    letter-spacing: 8px;
 }
 
 main {
+  display: flex;
+  flex-direction: row-reverse;
   width: 90%;
   margin: auto;
 }
+
 
 .login {
   display: flex;
@@ -86,7 +95,8 @@ main {
 }
 
 .register-area{
-  width: 600px;
+  border: none;
+  width: 550px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -95,4 +105,21 @@ main {
 .register-area #label-house{
   margin-bottom: 18px;
   margin-right: 5px;
+}
+
+.check-area {
+  width: 550px;
+  line-height: 20px;
+  border: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  background-color: rgb(46, 46, 46);
 }
