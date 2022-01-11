@@ -5,13 +5,22 @@
   font-family: sans-serif;
 }
 
+body {
+  background-color: rgb(247, 245, 242);
+}
+
 .header {
   width: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
-  height: 70px;
+  height: 75px;
+}
+
+.header .trybewarts-header-logo{
+  width: 65px;
 }
 
 .header h1 {
@@ -19,3 +28,71 @@
     text-align: center;
 }
 
+main {
+  width: 90%;
+  margin: auto;
+}
+
+.login {
+  display: flex;
+  height: 40px;
+}
+
+.btn-login{
+  border-radius: 8px;
+  background-color: rgb(74, 46, 109);
+  border: none;
+  padding: 8px 60px;
+  color: white;
+  margin-right: 20px;
+}
+
+.trybewarts-login {
+  border-radius: 8px;
+  border: none;
+  padding: 0 12px;
+}
+
+.btn-login,
+.trybewarts-login {
+  margin-left: 16px;
+}
+
+#evaluation-form input{
+ max-width: 675px;
+}
+
+
+#trybewarts-forms-logo {
+  width: 40%;
+
+}
+
+#input-name,
+#input-lastname,
+#input-email,
+#house {
+  width: 260px;
+  margin-right: 5px;
+  padding: 16px 12px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#house {
+  background-color: white;
+  width: 210px;
+}
+
+.register-area{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.register-area #label-house{
+  margin-bottom: 18px;
+  margin-right: 5px;
+}
