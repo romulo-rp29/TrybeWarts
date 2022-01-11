@@ -12,3 +12,12 @@
   background-color: rgb(50, 167, 145);
   height: 70px;
 }
+
+.header h1 {
+    display: flex;
+    text-align: center;
+}
+
+#evaluation-form {
+    flex-direction: column;
+}
