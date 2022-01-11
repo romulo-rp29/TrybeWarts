@@ -86,7 +86,7 @@ main {
 }
 
 .register-area{
-  width: 50%;
+  width: 600px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
