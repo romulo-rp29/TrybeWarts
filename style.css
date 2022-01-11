@@ -19,7 +19,7 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
-  height: 70px;
+  height: 80px;
 }
 
 .header .trybewarts-header-logo{
@@ -32,57 +32,84 @@ body {
     font-family: 'Harry Potter';
     color: white;
     letter-spacing: 8px;
+    margin-top: 10px;
 }
 
-main {
-
-  display: flex;
-  flex-direction: row-reverse;
-  width: 90%;
-  margin: auto;
+.header .trybewarts-header-logo {
+  margin-left: 20px;
 }
 
-
-.login {
+.header .login-container {
   display: flex;
   height: 40px;
 }
 
-.btn-login{
-  border-radius: 8px;
-  background-color: rgb(74, 46, 109);
-  border: none;
-  padding: 8px 60px;
-  color: white;
-  margin-right: 20px;
-}
-
-.trybewarts-login {
+.header .trybewarts-login {
   border-radius: 8px;
   border: none;
   padding: 0 12px;
+  width: 160px;
 }
 
-.btn-login,
+.header .btn-login{
+  border-radius: 8px;
+  background-color: rgb(74, 46, 109);
+  border: none;
+  padding: 5px 50px;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.header .btn-login:hover {
+  background-color: rgb(62, 39, 90);
+}
+
+.header .btn-login,
 .trybewarts-login {
   margin-left: 16px;
 }
 
-#evaluation-form input{
- max-width: 675px;
+/*======> Forms <=======*/
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: auto;
 }
 
+.content-container {
+  margin-top: 50px;
+}
+
+.form-title {
+  margin-bottom: 100px;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 675px;
+}
 
 #trybewarts-forms-logo {
-  width: 40%;
+  height: 500px;
+}
 
+.register-area {
+  width: 675px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #input-name,
 #input-lastname,
 #input-email,
 #house {
-  width: 260px;
+  width: 270px;
   margin-right: 5px;
   padding: 16px 12px;
   border: none;
@@ -109,9 +136,55 @@ main {
 }
 
 .check-area {
+  display: flex;
+  flex-direction: row;
   width: 550px;
   line-height: 20px;
   border: none;
+}
+
+.family {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+#comment {
+  margin-top: 40px;
+}
+
+#textarea {
+  margin-top: 8px;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom:30px;
+}
+
+.confirm {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-self:flex-start;
+}
+
+.confirm input {
+  margin-left: 5px;
+}
+
+#submit-btn {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(74, 46, 109);
+  color: white;
+  font-weight: 700;
+}
+
+#submit-btn:hover {
+  background-color: rgb(62, 39, 90);
 }
 
 footer {
