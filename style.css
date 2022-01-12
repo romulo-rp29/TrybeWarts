@@ -54,9 +54,6 @@ legend {
 
 .login-items {
   display: flex;
-}
-
-.login-items {
   font-size: 16px;
   border-radius: 8px;
   border: none;
@@ -230,7 +227,6 @@ main {
 
 #counter {
   position: relative;
-
   text-align: right;
   margin-top: -35px;
   margin-right: 5px;
