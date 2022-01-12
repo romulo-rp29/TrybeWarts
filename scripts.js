@@ -19,3 +19,11 @@ loginBtn.addEventListener('click', () => {
   return email.value !== 'tryber@teste.com' && password.value !== '123456'
     ? alert('Email ou senha inválidos.') : alert('Olá, Tryber!');
 });
+
+document.querySelector('#submit-btn').disabled = true;
+let checkbox = document.querySelector("#agreement");
+checkbox.addEventListener('change', function() {
+  if (checkbox.checked) {
+    document.querySelector('#submit-btn').disabled = false;
+  }
+});
