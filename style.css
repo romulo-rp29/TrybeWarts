@@ -1,11 +1,11 @@
-@import url('http://fonts.cdnfonts.com/css/harry-potter');
-@import url('http://fonts.cdnfonts.com/css/spqr');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,900;1,500;1,700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'SPQR', sans-serif;
+  font-family: "Alegreya", sans-serif;
+  font-weight: 500;
 }
 
 body {
@@ -22,38 +22,39 @@ body {
   height: 80px;
 }
 
-.header .trybewarts-header-logo{
-  width: 65px;
+.header .trybewarts-header-logo {
+  width: 62px;
 }
 
 .header h1 {
-    display: flex;
-    text-align: center;
-    font-family: 'Harry Potter';
-    color: white;
-    letter-spacing: 8px;
-    margin-top: 10px;
+  display: flex;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  letter-spacing: 4px;
 }
 
 .header .trybewarts-header-logo {
   margin-left: 20px;
 }
 
-.header .login-container {
+.header .trybewarts-login {
   display: flex;
   height: 40px;
 }
 
-.header .trybewarts-login {
+.header .login-items {
+  font-size: 16px;
   border-radius: 8px;
   border: none;
   padding: 0 12px;
   width: 160px;
 }
 
-.header .btn-login{
+.header .btn-login {
+  font-size: 16px;
   border-radius: 8px;
-  background-color: rgb(74, 46, 109);
+  background-color: rgb(78, 44, 131);
   border: none;
   padding: 5px 50px;
   color: white;
@@ -63,11 +64,11 @@ body {
 }
 
 .header .btn-login:hover {
-  background-color: rgb(62, 39, 90);
+  background-color: rgb(62, 35, 104);
 }
 
 .header .btn-login,
-.trybewarts-login {
+.login-items {
   margin-left: 16px;
 }
 
@@ -84,8 +85,9 @@ main {
   margin-top: 50px;
 }
 
-.form-title {
-  margin-bottom: 100px;
+#form-title {
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 #evaluation-form {
@@ -95,23 +97,34 @@ main {
 }
 
 #trybewarts-forms-logo {
+  margin-top: 90px;
+  margin-left: 60px;
   height: 500px;
 }
 
 .register-area {
+  padding-bottom: 0;
+  border: none;
   width: 675px;
+  height: 120px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+#label-house {
+  margin-bottom: 18px;
 }
 
 #input-name,
 #input-lastname,
 #input-email,
 #house {
-  width: 270px;
+  font-size: 16px;
+  width: 330px;
   margin-right: 5px;
-  padding: 16px 12px;
+  padding: 12px 12px;
   border: none;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -119,81 +132,120 @@ main {
 
 #house {
   background-color: white;
-  width: 210px;
+  width: 295px;
 }
 
-.register-area{
-  border: none;
-  width: 550px;
+#label-family-box {
+  width: 50%;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-direction: column;
 }
 
-.register-area #label-house{
-  margin-bottom: 18px;
-  margin-right: 5px;
+.radio-area {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.radio-area input {
+  margin-top: 18px;
 }
 
 .check-area {
   display: flex;
   flex-direction: row;
-  width: 550px;
+  justify-content: space-between;
+  width: 100%;
   line-height: 20px;
   border: none;
 }
 
-.family {
+.subtitle {
+
+}
+
+#label-content {
+  margin-top: -10px;
+  font-size: 17px;
+  line-height: 40px;
   width: 300px;
+}
+
+
+.aprender {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60%;
+  height: 60px;
+}
+.aprender input {
+  margin-top: 15px;
+}
+.aprender label {
+  margin-right: 16px;
+}
+
+#label-rate-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#label-rate {
+  font-size: 20px;
 }
 
 #comment {
-  margin-top: 40px;
+  margin-top: 30px;
+  font-size: 20px;
 }
 
 #textarea {
   margin-top: 8px;
+  width: 100%;
 }
 
 hr {
-  margin-top: 10px;
-  margin-bottom:30px;
+  margin-top: 15px;
+  margin-bottom: 14px;
 }
 
 .confirm {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   display: flex;
   flex-direction: row-reverse;
-  align-self:flex-start;
+  align-self: flex-start;
 }
 
 .confirm input {
+  margin-top: 8px;
   margin-left: 5px;
 }
 
 #submit-btn {
+  margin-bottom: 50px;
   padding: 10px;
   border-radius: 8px;
   border: none;
-  background-color: rgb(74, 46, 109);
+  background-color: rgba(78,44,131,255);
   color: white;
   font-weight: 700;
 }
 
 #submit-btn:hover {
-  background-color: rgb(62, 39, 90);
+  background-color: rgba(78,44,131,255);
 }
 
 footer {
+  font-size: 20px;
   position: absolute;
   bottom: 0;
   width: 100%;
-  margin-top: 50px;
   padding: 12px;
   text-align: center;
   color: white;
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(61, 61, 61);
 }
