@@ -183,6 +183,10 @@ main {
   width: 300px;
 }
 
+.check-box-area {
+  margin-left: 20px;
+}
+
 .aprender {
   display: flex;
   flex-wrap: wrap;
@@ -216,8 +220,20 @@ main {
 }
 
 #textarea {
+  padding: 5px 10px;
+  border-radius: 8px;
+  resize: none;
+  font-size: 16px;
   margin-top: 8px;
   width: 100%;
+}
+
+#remaining {
+  position: relative;
+
+  text-align: right;
+  margin-top: -35px;
+  margin-right: 5px;
 }
 
 hr {
