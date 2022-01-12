@@ -21,8 +21,8 @@ loginBtn.addEventListener('click', () => {
 });
 
 document.querySelector('#submit-btn').disabled = true;
-let checkbox = document.querySelector("#agreement");
-checkbox.addEventListener('change', function() {
+const checkbox = document.querySelector('#agreement');
+checkbox.addEventListener('change', () => {
   if (checkbox.checked) {
     document.querySelector('#submit-btn').disabled = false;
   }
