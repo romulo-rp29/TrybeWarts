@@ -12,6 +12,14 @@ body {
   background-color: rgb(247, 245, 242);
 }
 
+fieldset {
+  border: none;
+}
+
+legend {
+  display: none;
+}
+
 .header {
   width: 100%;
   display: flex;
@@ -38,6 +46,14 @@ body {
 .trybewarts-login {
   display: flex;
   height: 40px;
+}
+
+.trybewarts-login label {
+  display: none;
+}
+
+.login-items {
+  display: flex;
 }
 
 .login-items {
@@ -97,7 +113,7 @@ main {
   height: 500px;
 }
 
-.register-area {
+.subscription {
   padding-bottom: 0;
   border: none;
   width: 675px;
@@ -107,13 +123,9 @@ main {
   flex-flow: wrap;
 }
 
-#label-house {
-  margin-bottom: 18px;
-}
-
 #input-name , #input-lastname , #input-email , #house {
   font-size: 16px;
-  width: 330px;
+  width: 320px;
   margin-right: 5px;
   padding: 12px;
   border: none;
@@ -121,15 +133,28 @@ main {
   margin-bottom: 20px;
 }
 
+.subscription label {
+  display: none;
+  margin-bottom: 18px;
+}
+
+#label-house {
+  display: flex;
+}
+
 #house {
   background-color: white;
-  width: 295px;
+  width: 285px;
 }
 
 #label-family-box {
   width: 50%;
   display: flex;
   flex-direction: column;
+}
+
+#label-family {
+  font-size: 18px;
 }
 
 .radio-area {
