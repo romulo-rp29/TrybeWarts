@@ -9,8 +9,8 @@ textArea.addEventListener('keypress', (e) => {
 });
 
 textArea.addEventListener('keyup', () => {
-  const restante = document.querySelector('#remaining');
-  restante.innerHTML = 500 - textArea.value.length;
+  const counter = document.querySelector('#counter');
+  counter.innerHTML = 500 - textArea.value.length;
 });
 
 loginBtn.addEventListener('click', () => {

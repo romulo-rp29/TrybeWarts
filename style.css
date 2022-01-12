@@ -228,7 +228,7 @@ main {
   width: 100%;
 }
 
-#remaining {
+#counter {
   position: relative;
 
   text-align: right;
