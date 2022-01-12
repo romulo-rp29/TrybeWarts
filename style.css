@@ -209,9 +209,19 @@ main {
 
 #label-rate-box {
   display: flex;
+  align-items: center;
+}
+
+.avaliable {
+  display: flex;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
+  margin-left: 10%;
+}
 
+.avaliable label {
+  margin-left: 10px;
 }
 
 #label-rate {
