@@ -267,10 +267,11 @@ hr {
   color: white;
   font-weight: 700;
   font-size: 16px;
+  cursor: pointer;
 }
 
 #submit-btn:hover {
-  background-color: rgba(78, 44, 131, 255);
+  background-color: rgb(62, 35, 104);
 }
 
 footer {
