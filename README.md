@@ -19,7 +19,9 @@ Neste projeto, fomos capazes de:
 
 Neste projeto, foi desenvolvida uma página de formulário da Escola de Magia de Trybewarts, para que as pessoas estudantes pudessem enviar seus feedbacks sobre ela. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling, já que programar é o mais próximo que podemos chegar de algo **verdadeiramente mágico**!
 
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 # Welcome to the Trybewarts Wizarding School project repository! :mage:
 
