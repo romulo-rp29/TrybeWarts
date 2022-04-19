@@ -6,7 +6,7 @@ Projeto desenvolvido em dupla com Erik Lima (https://github.com/Erik-EFL)
 
 # Habilidades
 
-Neste projeto, fui capaz de:
+Neste projeto, fomos capazes de:
 
 * Criar formulários em HTML;
 * Utilizar CSS Flexbox para criar layouts flexíveis;
