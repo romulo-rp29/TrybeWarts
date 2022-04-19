@@ -1,9 +1,3 @@
-### Termos de acordo
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
-
----
-
 # Boas vindas ao repositório do projeto Trybewarts Wizarding School! :mage:
 
 Projeto desenvolvido em dupla com Erik Lima (https://github.com/Erik-EFL)
