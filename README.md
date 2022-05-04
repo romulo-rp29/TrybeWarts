@@ -1,6 +1,6 @@
 # Boas vindas ao repositório do projeto Trybewarts Wizarding School! :mage:
 
-Projeto desenvolvido em dupla com [Erik Lima](https://github.com/Erik-EFL)
+Projeto desenvolvido, em dupla, como pessoa estudante da [Trybe](https://www.betrybe.com/)
 
 ---
 
@@ -25,7 +25,7 @@ Neste projeto, foi desenvolvida uma página de formulário da Escola de Magia de
 
 # Welcome to the Trybewarts Wizarding School project repository! :mage:
 
-Project developed in partnership with Erik Lima (https://github.com/Erik-EFL)
+Project developed in partnership with [Erik Lima](https://github.com/Erik-EFL)
 
 ---
 
